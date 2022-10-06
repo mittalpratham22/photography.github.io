@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main-body{
+    margin-left:70px;
+    margin-right: 70px;
+
+}
+
+.nav-bar{
+    background-color: rgb(35, 13, 13);
+}
+
+
+
+.heading{
+    background-color: pink;
+    padding: 10px;
+    margin:10px 0 10px 0;
+    border-radius: 20px;
+}
+.heading h1{
+    color:violet;
+}
+
+
+
+
+
+
+.gridphoto{
+    display: grid;
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    gap: 10px;
+}
+.one{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-image: url("https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80");
+    height: 200px;
+    width: auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.three{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background-image: url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=974&q=80");
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.four{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.five{
+    grid-row: 2/4;
+    grid-column: 2/3;
+    background-image: url("https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80");
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.six{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-image: url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.booking{
+    
+    /* background-image: url("https://media.istockphoto.com/photos/christmas-snow-background-with-snow-drifts-and-snowcovered-blur-picture-id1281448663?k=20&m=1281448663&s=612x612&w=0&h=JoFg3-pqQOn44yt9W4qvZcCUaIkF13H_vbbNfIb5Jwo="); */
+    /* background-image: url("https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    background-image: url("https://images.pexels.com/photos/813871/pexels-photo-813871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;  
+    margin-left: 0;
+    margin-right: 0;  
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    opacity:50%;
+    color: #29d9d5;
+    
+}
+h3{
+    color: #29d9d5;
+}
+.booking h1{
+    color: white;
+}
+.booking p{
+    color: white;
+}
